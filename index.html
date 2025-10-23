@@ -5,10 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap" rel="stylesheet">
+
     <style>
         body {
             background-color: rgb(241, 227, 213);
-            font-family: Young Serif;
+            font-family: "Outfit", sans-serif;
+            font-weight: 100px;
+
         }
 
         table {
@@ -19,7 +28,7 @@
 
         .main-container {
             background-color: white;
-            max-width: 600px;
+            max-width: 700px;
             margin: 0 auto;
             padding: 15px 30px;
 
@@ -35,14 +44,18 @@
 
         }
 
+
+
         h3 {
             color: rgb(165, 90, 90);
             font-size: 30px;
         }
 
-        h4{
-            margin-left: 20px;
+        .omelette{
+            font-family: "Young Serif", serif;
         }
+
+
 
 
 
@@ -53,17 +66,25 @@
         li::marker {
             color: rgb(165, 90, 90);
         }
-        .boder-line{
+
+        .boder-line {
             border-bottom: 1px solid rgb(216, 209, 209);
             display: block;
         }
 
-        
-        .red{
-            color:rgb(165, 90, 90);
+
+        .red {
+            color: rgb(165, 90, 90);
 
         }
-            
+
+        p{
+            color: hsl(30, 10%, 34%);
+        }
+        .preparation{
+            color: hsl(332, 51%, 32%);
+            margin-left: 20px;
+        }
     </style>
 </head>
 
@@ -71,13 +92,13 @@
     <div class="main-container">
         <div class=""><img src="./assets/images/image-omelette.jpeg" width="100%" alt="omelette"></div>
         <div>
-            <h1>Simple Omelette Recipe</h1>
+            <h1 class="omelette">Simple Omelette Recipe</h1>
             <p>an easy and quick dish perfect for any meal. this classic omelette combines beaten eggs <br />cooked to
                 perfection,optionally filled with your choice of cheese,vegetables or meats.</p>
         </div>
 
         <div class="container">
-            <h4 style="color: hsl(332, 51%, 32%);">Preparation time</h4>
+            <p class="preparation"><b>Preparation time</b></p>
             <ul>
                 <li>total: approximately 10min</li><br />
                 <li>preparation: 5min</li><br />
@@ -96,21 +117,25 @@
 
         <h3>Instructions</h3>
         <ol>
-            <li><b>Beat the eggs</b>: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed.
-                You can add a tablespoon of water or milk for a fluffier texture.</li><br />
+            <li> <p><b>Beat the eggs</b>: In a bowl, beat the eggs with a pinch of salt and pepper until they are well
+                mixed.
+                You can add a tablespoon of water or milk for a fluffier texture.</p></li>
 
-            <li><b>Heat the pan</b>: Place a non-stick frying pan over medium heat and add butter or oil.</li><br />
+            <li><p><b>Heat the pan</b>:Place a non-stick frying pan over medium heat and add butter or oil.</p></li>
 
-            <li><b>Cook the omelette</b>: Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure
-                the eggs evenly coat the surface.</li><br />
+            <li><p><b>Cook the omelette</b>:Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to
+                ensure
+                the eggs evenly coat the surface.</p></li>
 
-            <li><b>Add fillings (optional)</b>: When the eggs begin to set at the edges but are still slightly runny in the
-                middle, sprinkle your chosen fillings over one half of the omelette.</li><br />
+            <li><p><b>Add fillings (optional)</b>:When the eggs begin to set at the edges but are still slightly runny in
+                the
+                middle, sprinkle your chosen fillings over one half of the omelette.</p></li>
+                
 
-            <li><b>Fold and serve</b>: As the omelette continues to cook, carefully lift one edge and fold it over the
-                fillings. Let it cook for another minute, then slide it onto a plate.</li><br />
+            <li><p><b>Fold and serve</b>: As the omelette continues to cook, carefully lift one edge and fold it over the
+                fillings. Let it cook for another minute, then slide it onto a plate.</p></li>
 
-            <li><b>Enjoy</b>: Serve hot, with additional salt and pepper if needed.</li><br />
+            <li><p><b>Enjoy</b>:Serve hot, with additional salt and pepper if needed.</p></li>
         </ol>
         <hr />
 
